@@ -16,17 +16,14 @@
         "react"
     ],
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
+        "react/self-closing-comp": [
+            "error", {
+            "component": true,
+            "html": true
+          }],
         "quotes": [
             "error",
-            "double"
+            "single"
         ],
         "semi": [
             "error",
